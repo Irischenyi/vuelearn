@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue Example</title>
+  </head>
+  <style>
+  .router-link-active {
+    color: red;
+  }
+  </style>
+  <body>
+    <div id = "app">
+        {{ all}}
+        <div v-on:click = "change">change</div>
+        <count></count>
+    </div>
+    <script src="dist/build.js">
+    //webpack-dev-server --inline --hot
+    </script>
+  </body>
+</html>
